@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.thank-you {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.thankyou-heading {
+    width: 100%;
+    height: auto;
+    font-size: 4rem;
+    padding: 5rem 0;
+    display: grid;
+    place-items: center;
+    background-color: #ffc671;
+    color: white;
+    text-align: center;
+}
+
+.thankyou-paragraph {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -2rem;
+    background-color: white;
+    padding: 5rem 0;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0rem rgb(223, 223, 223);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#h-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    background-color: #ffc671;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 0.3rem 0rem #ffc671;
+}
+
+
+
+@media(max-width:1200px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    .thankyou-heading {
+        padding: 10rem 0;
+    }
+
+    .thankyou-paragraph {
+        margin-top: -5rem;
+        background-color: white;
+        padding: 8rem 0;
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width:576px) {
+
+    .thankyou-paragraph {
+        padding: 8rem 5%;
+    }
+
+}
